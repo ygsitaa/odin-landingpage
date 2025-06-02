@@ -117,3 +117,28 @@ body {
     border: 2px solid #3882F6;
     border-radius: 10px;
 }
+
+.quote {
+    display: flex;
+    background-color: #E5E7EB;
+    height: 300px;
+}
+
+.quote-container {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.quote-text {
+    font-size: 30px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.quote-name {
+    align-self: flex-end;
+    font-weight: 700;;
+}
