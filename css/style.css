@@ -16,7 +16,7 @@ body {
     flex: 1;
     height: 60px;
     width: 80%;
-    margin-left: 200px;
+    margin: 0 auto;
 }
 
 .nav .logo {
@@ -45,11 +45,12 @@ body {
     flex: 6;
     align-items: center;
     width: 80%;
-    margin-left: 200px;
+    margin: 0 auto;
 }
 
 .hero-text {
     width: 600px;
+    height: 203px;
 }
 
 .hero-text h2 {
@@ -63,7 +64,7 @@ body {
 }
 
 .hero-img {
-    
+    margin-left: auto;
 }
 
 .hero-img img {
@@ -81,4 +82,38 @@ body {
     color: #fff;
     font-size: 14px;
     font-weight: 600;
+}
+
+.random-infos {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    background-color: #fff;
+    align-items: center;
+}
+
+.random-infos-headertext {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-box {
+    display: flex;
+    flex-direction: column;
+    width: 205px;
+    margin: 10px;
+    text-align: center;
+}
+.img-box img {
+    width: 200px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
 }
