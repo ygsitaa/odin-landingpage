@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto";
     margin: 0;
 }
 
@@ -140,5 +140,30 @@ body {
 
 .quote-name {
     align-self: flex-end;
-    font-weight: 700;;
+    font-weight: 700;
+}
+
+.calltoaction {
+    display: flex;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-container {
+    background-color: #3882F6;
+    display: flex;
+    width: 80%;
+    height: 125px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.cta-text {
+    color: white;
+}
+
+.signup-cta {
+    border: 2px solid white;
 }
