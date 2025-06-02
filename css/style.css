@@ -167,3 +167,12 @@ body {
 .signup-cta {
     border: 2px solid white;
 }
+
+.footer {
+    display: flex;
+    height: 60px;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
